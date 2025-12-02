@@ -1,4 +1,4 @@
-# Ultrasonic Water Level Controller — README
+# Ultrasonic Water Level Controller
 
 ## 1. Problem Statement
 

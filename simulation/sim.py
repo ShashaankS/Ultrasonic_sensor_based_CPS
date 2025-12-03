@@ -14,10 +14,8 @@ fill = np.linspace(50, 10, 80)
 # Phase 3: Overflow (sensor reading drops abnormally)
 overflow = np.linspace(10, 0, 80)
 
-# Combined
 true_level = np.concatenate([drain, fill, overflow])
 
-# true_level = np.linspace(50, 10, steps)  # Tank filling over time (cm)
 noise = np.random.normal(0, 5, steps)    # Ultrasonic noise
 raw_measurement = true_level + noise
 
